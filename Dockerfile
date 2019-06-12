@@ -1,4 +1,4 @@
-FROM daocloud.io/xin_cqu/matlab_config
+FROM jngong/matlab_v90_fsl_ubuntu
 
 MAINTAINER Xin Wen <nclxwen@gmail.com>
 
