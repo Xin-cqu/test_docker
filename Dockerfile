@@ -1,7 +1,8 @@
-FROM jngong/matlab_v90_fsl_ubuntu
+FROM daocloud.io/xin_cqu/matlab_config
 
 MAINTAINER Xin Wen <nclxwen@gmail.com>
 
+RUN apt-get -y update
 RUN apt-get -y install git
 RUN mkdir -p /script
 RUN cd /script && git clone https://github.com/Xin-cqu/test_docker.git
